@@ -1,0 +1,185 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+#container {
+    width: 1000px;
+   /* border: 1px solid grey;*/
+    margin: 0 auto;
+
+}
+    #header{
+        height:100px;
+        padding: 10px 0;
+    }
+
+    #brand{
+        float: left;
+       
+
+    }
+
+h1  a {
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
+#searchBox{
+    float: right;
+    background: linear-gradient(rgb(61, 228, 20),rgb(87, 177, 114));
+    background: -webkit-linear-gradient(rgb(223, 236, 32), rgb(212, 241, 17));     
+    background: -o-linear-gradient(rgb(57, 179, 93), rgb(108, 250, 162));   
+    background: -moz-linear-gradient(rgb(98, 186, 90), rgb(170, 255, 13)); 
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin: 20px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(20, 20, 19);
+    background: white url(images/search.png) right center no-repeat;
+    border: 1px solid #c3d03e;
+    
+}
+.submit{
+    float: right;
+    padding: 6px;
+    font-weight: bold;
+    color: white;
+    background: darkblue;
+    font-size: 15px;
+    border: 1px solid white;
+}
+.clear{
+    clear:both;
+}
+#menu{
+    height: 70px;
+    background: linear-gradient(rgb(52, 218, 60),rgb(132, 248, 24));
+    background: -webkit-linear-gradient(rgb(160, 209, 27), rgb(214, 158, 74));     
+    background: -o-linear-gradient(rgb(180, 202, 53), rgb(238, 253, 24));   
+    background: -moz-linear-gradient(rgb(42, 247, 69), rgb(40, 253, 40)); 
+    padding: 5px 0;
+
+}
+ul{
+    list-style:none;
+}
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height:30px;
+    border-right: 1px solid #4f03c9;
+
+}
+#menu ul li:last-child{
+    border-right:none;
+}
+#menu ul li a{
+    text-decoration:none;
+    text-transform :uppercase;
+    font-size: 17px;
+    color: #050000;
+    line-height: 30px;
+    -webkit-transform: font-size 0.5s ease;
+    -moz-transform: font-size 0.5s ease;
+    -o-transform: font-size 0.5s ease;
+    -ms-transform: font-size 0.5s ease;
+    transform: font-size 0.5s ease;
+
+} 
+#menu ul li a:hover,#menu ul lia.active{ 
+    font-size :20px;
+    font-weight:bold;
+    color:#f80a0a;
+
+}
+#introduction{
+    background: linear-gradient(rgb(100, 236, 100),rgb(198, 214, 53));
+    background: -webkit-linear-gradient(rgb(204, 223, 38), rgb(95, 230, 77));     
+    background: -o-linear-gradient(rgb(70, 245, 79), rgb(163, 161, 10));   
+    background: -moz-linear-gradient(rgb(139, 172, 62), rgb(110, 248, 30)); 
+    padding: 30px;
+    margin: 15px 0;
+
+}
+#introduction h3 {
+    font-size:40px;
+    color: #316901;
+    font-weight: normal;
+
+    }
+    #introduction p { 
+        font-size:25px;
+        color:#628f19;
+        text-align: justify;
+    }
+    .sidebar{
+        margin-bottom: 22px;
+        height: 500px;
+        width: 328px;
+        border: 3px solid #baf46f;
+        border-radius: 20px;
+        padding: 19px 78px 49px;
+    }
+    .sidebar h3{
+        color: #b314db;
+        font-size: 30px;
+
+    }
+    .sidebar ul
+    {
+        padding-top:8px;
+    }
+    #leftsidebar ul li{
+        padding: 5px  20px;
+        list-style-image: url(images/bullet.png)
+    }
+    #rightsidebar ul li{
+        padding-bottom: 10px;
+        padding-left: 10px;
+        list-style-image: url(images/tick.png)
+    }
+    .sidebar ul li a{
+        text-decoration: none;
+        font-size: 22px;
+        color:red;
+        -webkit-transform: font-size 0.5s ease;
+    -moz-transform: font-size 0.5s ease;
+    -o-transform: font-size 0.5s ease;
+    -ms-transform: font-size 0.5s ease;
+    transform: font-size 0.5s ease;
+
+    }
+    .sidebar ul li a:hover, .sidebar ul  li a.active{
+        text-decoration: none;
+        color: #861BBF;
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+
+    #leftsidebar{
+        float:left;
+
+    }
+    #rightsidebar{
+        float:right;
+
+    }
+    .footer{    
+     height: 60px;    
+        background: linear-gradient(rgb(240, 236, 122), rgb(226, 226, 33));    
+        background: -webkit-linear-gradient(rgb(218, 211, 34), rgb(197, 197, 26));     
+        background: -o-linear-gradient(rgb(177, 172, 39), rgb(109, 109, 15));   
+        background: -moz-linear-gradient(rgb(185, 180, 35), rgb(223, 223, 59));   
+        padding: 10px 30px;  
+        margin-top: 40px 
+     } 
+ 
+    
